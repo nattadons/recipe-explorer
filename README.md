@@ -1,12 +1,43 @@
-# React + Vite
+# Recipe Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application for discovering, searching, and saving your favorite recipes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse popular recipes
+- Search recipes by name
+- View detailed recipe information including ingredients, instructions, and nutrition
+- Save favorite recipes to your browser storage
+- Responsive design for desktop and mobile
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- React Router 7
+- Tailwind CSS 4
+- Lucide React for icons
+- Vite for build tooling
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+```
+npm install
+```
+3. Start the development server:
+```
+npm run dev
+```
+4. Open your browser to the URL shown in the terminal
+
+## Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview the production build
+- `npm run lint` - Run ESLint
+
+## API
+
+This application uses [TheMealDB API](https://www.themealdb.com/api.php) for recipe data.
